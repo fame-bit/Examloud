@@ -1,0 +1,149 @@
+*{
+  text-align: center;
+}
+.topper{
+  background: red;
+  color: yellow;
+  position: sticky;
+  top: 0px;
+  border: none;
+  border-radius: 8px;
+  
+}
+img{
+  height: 50px;
+}
+.topper h1{
+  font-size: 6vh;
+  font-weight: bolder;
+  height: 50px;
+}
+.topper p{
+  display: flex;
+  margin-left: 30px;
+}
+.topper p input{
+  height: 10vh;
+  width: 20vh;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.topper p button{
+  height: 40px;
+  width: 70px;
+  border: none;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: bolder;
+  margin-left: 2vh;
+}
+.topper p a{
+  width: 70px;
+  height: 50px;
+}
+.pinbody{
+  background: red;
+  color: yellow;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+.pinbody input{
+  height: 50px;
+  width: 120px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.pinbody button{
+  height: 50px;
+  width: 100px;
+  border: none;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: bolder;
+}
+.info{
+  background: blue;
+  color: yellow;
+  border: none;
+  border-radius: 4px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.info a{
+  color: white;
+  
+}
+.expolink{
+  border: 4px solid black;
+  text-align: left;
+  padding: 10px;
+}
+.expolink a{
+  font-size: 20px;
+  font-weight: bolder;
+  color: black;
+}
+.boxone{
+  text-align: left;
+  background: antiquewhite;
+  border: 4px solid;
+  margin-top: 10px;
+  font-size: 20px;
+  line-height: 50px;
+}
+.page{
+  text-align: right;
+  position: fixed;
+  top:70%;
+  right:0%;
+}
+.pageTelegram{
+  text-align: right;
+}
+.pageWhatsapp{
+  text-align: right;
+  
+}
+.pageTelegram button{
+  background: blue;
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  width: 180px;
+}
+.pageWhatsapp button{
+  background: green;
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  width: 220px;
+  margin-top: 10px;
+}
+.pageTelegram a{
+  color: white;
+  font-size: 20px;
+}
+.pageWhatsapp a{
+  color: white;
+  font-size: 20px;
+}
+.timetable{
+  display: flex;
+}
+.timetable button{
+  height: 40px;
+  margin: 10px;
+  width: 100;
+}
+.timetable button a{
+  color: black;
+  font-size: 20px;
+  
+}
